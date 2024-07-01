@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Producer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+            integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<div class="nav-bar">
+    <button onclick="getAll()">Home</button>
+    <button onclick="showFromCreate()">Create</button>
+    <button onclick="goToHome()">Car</button>
+    <button onclick="getAllStatistic()">Statistic</button>
+</div>
+<div id="main"></div>
+<script src="../js/producer/home.js"></script>
+<script src="../js/producer/statistic.js"></script>
+<script src="../js/producer/create.js"></script>
+<script src="../js/producer/delete.js"></script>
+<script src="../js/producer/update.js"></script>
+</body>
+</html>
